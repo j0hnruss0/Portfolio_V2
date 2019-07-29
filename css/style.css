@@ -1,0 +1,103 @@
+body {
+    background-image: url("../images/videoblocks-programming-code-background-abstract-seamless-loop-animation_razvz-zh1w_thumbnail-full01.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(243, 232, 214, 0.973);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(230, 217, 49);
+}
+
+.body-link:active {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.custom-card {
+    background-image: linear-gradient(to right, rgba(20, 4, 17, 0.65), rgba(20, 4, 17, 0.65));
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    width: 80% !important;
+    color: #f8fad8;
+}
+
+.gallery-thumb {
+    min-width: 100px !important;
+}
+
+.gallery-thumb:hover {
+    opacity: 0.5;
+}
+
+#my-pic {
+    max-width: 130px !important;
+}
+
+#down-banner {
+    width: 110px;
+    height: 1000px;
+    position: relative;
+    z-index: -1;
+    bottom: 100px;
+    /* -webkit-animation-name: example;
+    -webkit-animation-duration: 4s; */
+    animation-name: banner1;
+    /*
+    animation-duration: 1.5s;
+    */
+    background-image: linear-gradient(to bottom, rgb(119, 118, 143, 1), rgba(119, 118, 143,0));
+    opacity:0;  /* make things invisible upon start */
+	-webkit-animation:banner1 ease-in 1;
+    animation:banner1 ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	animation-duration:1s;
+}
+
+@keyframes banner1 { from { opacity:0; } to { opacity:1; } }
+
+@media only screen and (max-width: 1200px) {
+
+    #down-banner {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    #down-banner {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #down-banner {
+        width: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    
+}
+

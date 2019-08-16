@@ -49,6 +49,10 @@ a:hover {
     max-width: 130px !important;
 }
 
+#scroll-btn {
+    margin-left: 46%;
+}
+
 #down-banner {
     width: 110px;
     height: 1000px;
@@ -77,27 +81,31 @@ a:hover {
 
 @media only screen and (max-width: 1200px) {
 
-    #down-banner {
-        width: 100px;
+    #scroll-btn {
+        margin-left: 45%;
     }
 }
 
 @media only screen and (max-width: 990px) {
 
-    #down-banner {
-        width: 80px;
+    #scroll-btn {
+        margin-left: 43%;
     }
 }
 
 @media only screen and (max-width: 767px) {
 
-    #down-banner {
-        width: 60px;
+    #scroll-btn {
+        margin-left: 40%;
     }
 
 }
 
 @media only screen and (max-width: 575px) {
+
+    #scroll-btn {
+        margin-left: 35%;
+    }
     
 }
 

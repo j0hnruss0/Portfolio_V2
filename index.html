@@ -358,9 +358,22 @@
       </div>
     </div>
 
+    <div class="custom-card portfolio-item offset-1 mt-3">
+      <div class="card-body">
+        <div class="row">
+          <button id="scroll-btn" class="btn btn-outline-info">Back to Top</button>
+        </div>
+      </div>
+    </div>
+
     <div class="footer mt-3">
       <p class="text-center text-light">Copyright John Russo, 2019</p>
     </div>
   </div>
+  <script>
+    $("#scroll-btn").on("click", function() {
+      $("html").scrollTop(0);
+    });
+  </script>
 </body>
 </html>
